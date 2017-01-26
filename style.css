@@ -1,3 +1,63 @@
 .header-image {
 	width: 100%;
+	min-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 0;
+	opacity: .7;
+	transition: 1.5s;
+	filter: blur(1px);
+}
+.header-image:hover{
+	opacity: 1;
+	filter: blur(0px);
+	transition: .6s;
+}
+
+ .header-nav {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	top: 0;
+	background-color: transparent;
+	transition: .4s;
+	text-color: #000;
+} 
+ .header-nav:hover {
+	background-color: #333;
+	/* -webkit-transition:  .2s; */
+	transition: .6s;
+
+} 
+
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header-nav li {
+    float: left;
+}
+
+.header-nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.header-nav li a:hover {
+    background-color: #111;
+}
+
+.bodyclass{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fafafa;
 }

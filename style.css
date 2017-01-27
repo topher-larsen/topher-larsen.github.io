@@ -18,19 +18,36 @@
 	position: fixed;
 	z-index: 100;
 	width: 100%;
+	min-width: 1100px;
 	margin: 0px;
 	padding: 0px;
 	top: 0;
 	background-color: transparent;
+	/* background-color: #333; */
+	/* opacity: .1; */
 	transition: .4s;
 	text-color: #000;
 } 
  .header-nav:hover {
 	background-color: #333;
+	
 	/* -webkit-transition:  .2s; */
 	transition: .6s;
-
+	/* border-bottom: #444 2px solid; */
 } 
+
+#logo {
+	margin-right: 35px;
+	font-weight: bold;
+	/* font-family: times; */
+	font-size: 1.1em;
+	padding: 12px 16px;
+}
+#logo:hover {
+	background-color: #ffffff;
+	color: #333333;
+	transition: .4s;
+}
 
 .header-nav ul {
     list-style-type: none;
@@ -46,18 +63,20 @@
 .header-nav li a {
     display: block;
     color: #ffffff;
+    opacity: 1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: .9em;
 }
 
-/* Change the link color to #111 (black) on hover */
 .header-nav li a:hover {
-    background-color: #111;
+    background-color: #111111;
 }
 
-.bodyclass{
+.bodyclass {
 	margin: 0px;
 	padding: 0px;
-	background-color: #fafafa;
+	background-color: #f3f3f3;
 }
